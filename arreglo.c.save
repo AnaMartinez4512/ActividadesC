@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int arreglo[10];
+int *apuntador;
+int i=0;
+int j;
+int a;
+
+int main()
+{
+	int arreglo[10];	arreglo[0]=6;
+	arreglo[1]=2;
+	arreglo[2]=5;
+	arreglo[3]=4;
+	arreglo[4]=9;
+	arreglo[5]=3;
+	arreglo[6]=1;
+	arreglo[7]=7;
+	arreglo[8]=10;
+	arreglo[9]=8;
+	ordenamiento(arreglo,10);
+	
+
+//	printf("Arreglo [%d] = %d\n", i, *(ptr+i));
+}
+
+void ordenamiento(int *arreglo, int tam)
+{
+	for(i=0; i<tam; i++)
+		printf("Arreglo [%d] = %d", i, *(arreglo+1));
+}
+
+
